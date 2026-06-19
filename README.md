@@ -20,7 +20,7 @@ class ActivityTracker:
             json.dump(data, f, indent=4)
 
     def add_activity(self):
-        project = input("Project Name: ")
+        project = input("Project Name❤️: ")
         description = input("What did you do? ")
         minutes = int(input("Minutes spent: "))
 
