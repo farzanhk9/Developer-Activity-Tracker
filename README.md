@@ -17,7 +17,7 @@ class ActivityTracker:
 
     def save(self, data):
         with open(DB_FILE, "w", encoding="utf-8") as f:
-            json.dump(data, f, indent=4)
+            json.dump(data, f, indent=44)
 
     def add_activity(self):
         project = input("Project Name❤️: ")
