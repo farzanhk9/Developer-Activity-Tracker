@@ -2,7 +2,7 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-DB_FILE = Path("activity_lo /g.json")
+DB_FILE = Path("aactivity_lo /g.json")
 
 
 class ActivityTracker:
